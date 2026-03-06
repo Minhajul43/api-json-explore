@@ -22,3 +22,6 @@ const personJSON = JSON.stringify(person);
 const persons = JSON.parse(personJSON);
 console.log(persons);
 
+// write description about JSON.stringify and JSON.parse JSON.stringify is a method in JavaScript that converts a JavaScript object or value to a JSON string. It takes an object as input and returns a string representation of that object in JSON format. This is useful for sending data over the network or storing it in a file.
+
+// JSON.parse is a method in JavaScript that parses a JSON string and returns a JavaScript object. It takes a JSON string as input and converts it back into a JavaScript object. This is useful for receiving data from a server or reading data from a file that is in JSON format.
